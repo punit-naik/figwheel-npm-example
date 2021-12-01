@@ -1,5 +1,7 @@
 # figwheel-npm-example
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.punit-naik/figwheel-npm-example.svg)](https://clojars.org/org.clojars.punit-naik/figwheel-npm-example)
+
 Shows the usage of NPM deps with leiningen.
 
 ## Overview
