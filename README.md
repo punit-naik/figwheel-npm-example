@@ -1,10 +1,10 @@
 # figwheel-npm-example
 
-FIXME: Write a one-line description of your library/project.
+Shows the usage of NPM deps with leiningen.
 
 ## Overview
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
+Stores a string with left padding using the [lef-pad](https://www.npmjs.com/package/left-pad/v/1.1.3) in the [`app-state`](https://github.com/punit-naik/figwheel-npm-example/blob/main/src/org/clojars/punit_naik/figwheel_npm_example/core.cljs#L10) atom and prints it to the browser console after every hot code reload.
 
 ## Setup
 
