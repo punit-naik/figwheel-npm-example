@@ -1,4 +1,4 @@
-(defproject org.clojars.punit-naik/figwheel-npm-example "0.1.0"
+(defproject org.clojars.punit-naik/figwheel-npm-example "0.1.1"
   :description "Shows the usage of NPM deps with leiningen"
   :url "https://github.com/punit-naik/figwheel-npm-example"
   :license {:name "Eclipse Public License"
