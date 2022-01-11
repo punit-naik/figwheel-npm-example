@@ -7,7 +7,7 @@
 
 ;; define your app data so that it doesn't get over-written on reload
 
-(defonce app-state (atom {:text (lp "123" 6)}))
+(def app-state (atom {:text (str "\"" (lp "123" 6) "\"")}))
 
 (defn on-js-reload []
   ;; optionally touch your app-state to force rerendering depending on
