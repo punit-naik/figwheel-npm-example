@@ -7,11 +7,11 @@
   :min-lein-version "2.9.1"
 
   :dependencies [[org.clojure/clojure "1.10.3"]
-                 [org.clojure/clojurescript "1.10.893"]
-                 [org.clojure/core.async  "1.5.640"]]
+                 [org.clojure/clojurescript "1.11.4"]
+                 [org.clojure/core.async  "1.5.648"]]
 
   :plugins [[lein-figwheel "0.5.20"]
-            [lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]]
+            [lein-cljsbuild "1.1.8" :exclusions [[org.clojure/clojure]]]]
 
   :source-paths ["src"]
 
@@ -37,7 +37,7 @@
                            ;; To console.log CLJS data-structures make sure you enable devtools in Chrome
                            ;; https://github.com/binaryage/cljs-devtools
                            :preloads [devtools.preload]
-                           :npm-deps {:left-pad "1.1.3"}
+                           :npm-deps {:left-pad "1.3.0"}
                            :install-deps true}}
                ;; This next build is a compressed minified build for
                ;; production. You can build this with:
