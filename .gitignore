@@ -13,7 +13,9 @@ pom.xml*
 .nrepl-port
 .rebel_readline_history
 resources/public/js
-package*.json
+package.json
+package-lock.json
 node_modules
 .lsp
 .clj-kondo
+.lein-failures
